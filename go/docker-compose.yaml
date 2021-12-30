@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  app:
+    container_name: appgotest
+    image: gabrielgianelli/fullcycle-ci-sonarqube
+    volumes: 
+      - ./:/go/src/app
