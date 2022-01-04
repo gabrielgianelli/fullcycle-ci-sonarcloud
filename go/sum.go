@@ -13,3 +13,7 @@ func sum(a int, b int) int {
 func diff(a int, b int) int {
 	return a - b
 }
+
+func times(a int, b int) int {
+	return a * b
+}
